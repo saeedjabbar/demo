@@ -1,33 +1,15 @@
-import logo from './logo.svg';
+import Header from './Components/Header/Header';
+import Main from './Components/Main/Main';
+import Footer from './Components/Footer/Footer';
 import './App.css';
 
-
-function Logo(){
-  return (
-    <>
-      <img src={logo} alt="logo" width="40" />
-    </>
-  )
-}
-
-function Content(){
-  return (
-    <>
-      <h1>Content</h1>
-      <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-      </ul>
-    </>
-  )
-}
 
 function App() {
   return (
     <div>
-      <Logo />
-      <Content />
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
